@@ -1,7 +1,9 @@
+
+
 [
     {
         "recipe_image": "https://i.ibb.co/WzFk6m8/Rectangle-20170.png",
-        "recipe_id": "001",
+        "recipe_id": "1",
         "recipe_name": "Spaghetti Bolognese",
         "short_description": "Classic Italian pasta dish with savory meat  sauce.",
         "ingredients": [
@@ -18,11 +20,11 @@
     },
     {
         "recipe_image": "https://i.ibb.co/RDmksSd/Rectangle-20170-1.png",
-        "recipe_id": "002",
+        "recipe_id": "2",
         "recipe_name": "Chicken Caesar Salad",
         "short_description": "Classic Italian pasta dish with savory meat sauce.",
         "ingredients": [
-            " g chicken",
+            "500g chicken",
             "120 ml soy sau550ce",
             "50 g chili flakes",
             "400 g mushroom"
@@ -31,9 +33,9 @@
         "calories": "600 calories"
     },
     {
-        "recipe_image": "https://i.ibb.co/WzFk6m8/Rectangle-20170.png",
-        "recipe_id": "003",
-        "recipe_name": "Spaghetti Bolognese",
+        "recipe_image": "https://i.ibb.co/z7bNyg5/pork-green-curry-brown-bowl-with-spices-black-cement-background.jpg",
+        "recipe_id": "3",
+        "recipe_name": "Vegan Curry",
         "short_description": "Classic Italian pasta dish with savory meat sauce.",
         "ingredients": [
             "200 g basil leaf",
@@ -45,9 +47,9 @@
         "calories": "250 calories"
     },
     {
-        "recipe_image": "https://i.ibb.co/RDmksSd/Rectangle-20170-1.png",
-        "recipe_id": "004",
-        "recipe_name": "Chicken Caesar Salad",
+        "recipe_image": "https://i.ibb.co/w0mf6qT/grilled-salmon-fillet-with-fresh-vegetable-salad-generated-by-ai.jpg",
+        "recipe_id": "4",
+        "recipe_name": "Baked Salmon",
         "short_description": "Classic Italian pasta dish with savory meat sauce.",
         "ingredients": [
             "550 g chicken",
@@ -59,9 +61,9 @@
         "calories": "400 calories"
     },
     {
-        "recipe_image": "https://i.ibb.co/WzFk6m8/Rectangle-20170.png",
-        "recipe_id": "005",
-        "recipe_name": "Spaghetti Bolognese",
+        "recipe_image": "https://i.ibb.co/MV82TbQ/pasta-colored-farfalle-salad-with-tomatoes-mozzarella-basil.jpg",
+        "recipe_id": "5",
+        "recipe_name": "Pasta Salad",
         "short_description": "Classic Italian pasta dish with savory meat sauce.",
         "ingredients": [
 
@@ -74,20 +76,22 @@
         "preparing_time": "40 min",
         "calories": "600 calories"
     },
-    { "recipe_image": "https://i.ibb.co/RDmksSd/Rectangle-20170-1.png",
-    "recipe_id": "006",
-    "recipe_name": "MusChicken Caesar Salad",
-    "short_description": "Classic Italian pasta dish with savory meat sauce.",
-    "ingredients": [
-        "400 g mushroom",
-        "200 g basil leaf",
-        "1 liter chicken broth",
-        "1 onion"
-    ],
-    "preparing_time": "50 min",
-    "calories": "600 calories"
-}
-       
-
-   
+    {
+        "recipe_image": "https://i.ibb.co/VYj7HLk/sweet-chocolate-cake-with-cherry.jpg",
+        "recipe_id": "6",
+        "recipe_name": "Chocolate Cake",
+        "short_description": "Classic Italian pasta dish with savory meat sauce.",
+        "ingredients": [
+            "400 g mushroom",
+            "200 g basil leaf",
+            "1 liter chicken broth",
+            "1 onion"
+        ],
+        "preparing_time": "50 min",
+        "calories": "600 calories"
+    }
 ]
+
+
+
+

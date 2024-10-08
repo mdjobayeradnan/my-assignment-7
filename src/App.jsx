@@ -1,4 +1,5 @@
 
+import { useState } from 'react'
 import './App.css'
 import Banner from './components/Banner/Banner'
 import CookInformations from './components/CookInformations/CookInformations'
@@ -8,6 +9,14 @@ import Navbar from './components/Navbar/Navbar'
 import Title from './components/Title/Title'
 
 function App() {
+ 
+
+  const [cookInformations , setCookInformations] = useState([])
+
+  const handleCookInformation = menuItem => {
+ const newCookInformation = [...cookInformations, menuItem]
+ setCookInformations(newCookInformation)
+  }
 
   return (
     <>
@@ -17,9 +26,10 @@ function App() {
     <Banner></Banner>
     <Title></Title>
 
+
     <div className='md:flex'>
-      <MenuItems></MenuItems>
-      <CookInformations></CookInformations>
+      <MenuItems handleCookInformation ={handleCookInformation}></MenuItems>
+      <CookInformations cookInformations ={cookInformations}></CookInformations>
     </div>
     
     </>

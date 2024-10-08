@@ -1,10 +1,10 @@
-
+import profile from '../../assets/images/Group 5.png'
 
 const Banner = () => {
     return (
-        <div className="border-2 border-red-400 w-[1200px]">
+        <div className="w-[1200px]">
             <div>
-                <img src="../.././assets/images/Group 5.png" alt="" />
+                <img src={profile} alt="" />
             </div>
         </div>
     );
