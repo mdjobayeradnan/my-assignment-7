@@ -43,7 +43,7 @@ function App() {
     <Title></Title>
 
 
-    <div className='md:flex border-2 border-red-500'>
+    <div className='md:flex'>
       <MenuItems handleCookInformation ={handleCookInformation}></MenuItems>
       <CookInformations cookInformations ={cookInformations}></CookInformations>
       <Toaster />  <Toaster />
