@@ -6,7 +6,7 @@ import { BsFire } from "react-icons/bs";
 
 
 const MenuItem = ({menuItem,handleCookInformation}) => {
-    const {recipe_image,recipe_name,short_description,ingredients,preparing_time,calories
+    const {recipe_id,recipe_image,recipe_name,short_description,ingredients,preparing_time,calories
     } = menuItem
   
 
@@ -40,7 +40,7 @@ const MenuItem = ({menuItem,handleCookInformation}) => {
          <h1>{calories}</h1>
          </span>
 </div>
-<button onClick={() => handleCookInformation(menuItem)}  className="btn btn-success rounded-full p-3 w-[250px] mt-2">Want to Cook</button>
+<button onClick={() => handleCookInformation(recipe_id, menuItem)}  className="btn btn-success rounded-full p-3 w-[250px] mt-2">Want to Cook</button>
 
        
           </div>

@@ -7,15 +7,31 @@ import MenuItems from './components/MenuItems/MenuItems'
 
 import Navbar from './components/Navbar/Navbar'
 import Title from './components/Title/Title'
+import toast, { Toaster } from 'react-hot-toast';
 
 function App() {
  
 
   const [cookInformations , setCookInformations] = useState([])
+  
 
-  const handleCookInformation = menuItem => {
+  const handleCookInformation = (recipe_id,menuItem) => {
  const newCookInformation = [...cookInformations, menuItem]
  setCookInformations(newCookInformation)
+
+
+
+  // Check if the menuItem is already added using find method
+  if (cookInformations.find(menuItem => menuItem.recipe_id === recipe_id)) {
+    toast.error('This item has already been added!'); 
+    console.log(menuItem)
+    
+  } else {
+    // If not found, add it to cookInformations
+    setCookInformations([...cookInformations, menuItem]);
+  }
+
+ 
   }
 
   return (
@@ -27,9 +43,10 @@ function App() {
     <Title></Title>
 
 
-    <div className='md:flex'>
+    <div className='md:flex border-2 border-red-500'>
       <MenuItems handleCookInformation ={handleCookInformation}></MenuItems>
       <CookInformations cookInformations ={cookInformations}></CookInformations>
+      <Toaster />  <Toaster />
     </div>
     
     </>
